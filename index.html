@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Ddubble | Toy Store in Vidyadhar Nagar, Jaipur</title>
+  <meta name="description" content="Discover cute toys, learning games, adorable soft toys and playful gifts at Bubble Ddubble, your friendly local toy shop in Vidyadhar Nagar, Jaipur.">
+  <meta name="keywords" content="toy store jaipur, bubble ddubble, vidyadhar nagar toys, kids gifts jaipur, cute soft toys, educational toys jaipur">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 for verified brand and functional icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              pink: '#F8B4C4',       /* Pastel blush pink from logo */
+              'pink-light': '#FFF0F3',/* Very light soft background blush */
+              'pink-dark': '#E06287', /* High-contrast readable blush */
+              blue: '#8EC5FC',       /* Soft sky/powder blue from logo */
+              'blue-light': '#F0F7FF',/* Calm subtle blue background */
+              'blue-dark': '#2B6CB0', /* Deep powder blue accent */
+              cream: '#FCFAF8',      /* Warm off-white canvas */
+              charcoal: '#23272F',   /* Primary readable text */
+              muted: '#64748B',      /* Secondary neutral copy */
+              border: '#F1E9E7',     /* Delicate divider tone */
+              whatsapp: '#25D366',   /* Official WhatsApp Green */
+              'whatsapp-dark': '#1EBE5D'
+            }
+          },
+          fontFamily: {
+            display: ['Fredoka', 'Plus Jakarta Sans', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'system-ui', '-apple-system', 'sans-serif']
+          },
+          boxShadow: {
+            'soft': '0 4px 20px -2px rgba(224, 98, 135, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.03)',
+            'card': '0 10px 30px -4px rgba(35, 39, 47, 0.05), 0 4px 10px -2px rgba(35, 39, 47, 0.02)',
+            'float': '0 12px 32px -4px rgba(37, 211, 102, 0.35)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Prevent layout shifts & style scrollbar */
+    html {
+      scroll-padding-top: 5rem;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection {
+      background-color: #F8B4C4;
+      color: #23272F;
+    }
+    /* Subtle custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FCFAF8;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #E2D9D5;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #F8B4C4;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, ::before, ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-brand-cream text-brand-charcoal font-sans antialiased min-h-screen flex flex-col selection:bg-brand-pink selection:text-brand-charcoal overflow-x-hidden">
+
+  <header id="main-header" class="sticky top-0 z-40 w-full transition-all duration-300 bg-brand-cream/90 backdrop-blur-md border-b border-brand-border/60">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo & Identity -->
+      <a href="#hero" class="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-pink-dark rounded-xl px-1">
+        <!-- Brand Icon: Double Bubble with Pink & Blue Pastel Accents -->
+        <div class="relative w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-2xl bg-gradient-to-tr from-brand-pink-light to-brand-blue-light border border-brand-pink/40 shadow-xs group-hover:scale-105 transition-transform duration-200">
+          <svg class="w-6 h-6 text-brand-pink-dark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- Bubble 1 (Pastel Pink) -->
+            <circle cx="13" cy="18" r="9" fill="#F8B4C4" fill-opacity="0.75" stroke="#E06287" stroke-width="2"/>
+            <circle cx="10.5" cy="14.5" r="2.5" fill="#FFFFFF" fill-opacity="0.8"/>
+            <!-- Bubble 2 (Powder Blue) -->
+            <circle cx="20" cy="12" r="7.5" fill="#8EC5FC" fill-opacity="0.75" stroke="#2B6CB0" stroke-width="1.75"/>
+            <circle cx="18" cy="9.5" r="2" fill="#FFFFFF" fill-opacity="0.85"/>
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-lg sm:text-xl tracking-tight leading-none text-brand-charcoal group-hover:text-brand-pink-dark transition-colors">
+            Bubble Ddubble
+          </span>
+          <span class="text-[10px] sm:text-[11px] font-medium tracking-wider text-brand-muted uppercase">
+            Toy Shop • Jaipur
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-brand-charcoal/85" aria-label="Main Navigation">
+        <a href="#hero" class="hover:text-brand-pink-dark transition-colors py-1">Home</a>
+        <a href="#categories" class="hover:text-brand-pink-dark transition-colors py-1">Categories</a>
+        <a href="#products" class="hover:text-brand-pink-dark transition-colors py-1">Toys</a>
+        <a href="#about" class="hover:text-brand-pink-dark transition-colors py-1">About</a>
+        <a href="#visit" class="hover:text-brand-pink-dark transition-colors py-1">Visit Us</a>
+        <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" class="hover:text-brand-pink-dark transition-colors py-1 flex items-center gap-1.5" title="Follow us on Instagram">
+          <i class="fa-brands fa-instagram text-base"></i>
+          <span>Instagram</span>
+        </a>
+      </nav>
+
+      <!-- Header CTA (WhatsApp Button) & Mobile Hamburger -->
+      <div class="flex items-center gap-3">
+        <!-- Desktop WhatsApp CTA -->
+        <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20toys."
+           target="_blank"
+           rel="noopener noreferrer"
+           class="hidden sm:inline-flex items-center gap-2 bg-brand-charcoal hover:bg-brand-charcoal/90 active:scale-[0.98] text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-full shadow-xs transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-pink">
+          <i class="fa-brands fa-whatsapp text-brand-whatsapp text-base"></i>
+          <span>WhatsApp Us</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" 
+                type="button" 
+                class="md:hidden inline-flex items-center justify-center p-2 rounded-xl text-brand-charcoal hover:text-brand-pink-dark hover:bg-brand-pink-light/60 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-pink" 
+                aria-label="Toggle Navigation Menu"
+                aria-expanded="false"
+                aria-controls="mobile-nav">
+          <i id="menu-icon" class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav" class="hidden md:hidden border-t border-brand-border bg-brand-cream/98 px-5 py-4 transition-all duration-200">
+      <nav class="flex flex-col gap-3 text-sm font-medium text-brand-charcoal" aria-label="Mobile Navigation">
+        <a href="#hero" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors">Home</a>
+        <a href="#categories" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors">Categories</a>
+        <a href="#products" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors">Featured Toys</a>
+        <a href="#about" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors">About Bubble Ddubble</a>
+        <a href="#visit" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors">Visit Store & Directions</a>
+        <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-pink-light hover:text-brand-pink-dark transition-colors flex items-center gap-2 text-brand-muted">
+          <i class="fa-brands fa-instagram text-pink-600 text-base"></i>
+          <span>Instagram (@bubble_ddubble)</span>
+        </a>
+        <div class="pt-2">
+          <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20toys."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="w-full flex items-center justify-center gap-2 bg-brand-charcoal active:scale-[0.98] text-white text-sm font-semibold py-3 px-4 rounded-xl shadow-xs">
+            <i class="fa-brands fa-whatsapp text-brand-whatsapp text-base"></i>
+            <span>Chat on WhatsApp (78913751125)</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <section id="hero" class="relative pt-6 pb-12 sm:pt-12 sm:pb-20 overflow-hidden">
+      <!-- Subtle Pastel Background Accents (Restrained & Minimal) -->
+      <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-gradient-to-b from-brand-pink-light/70 via-brand-blue-light/40 to-transparent rounded-full blur-3xl pointer-events-none -z-10"></div>
+      
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+          
+          <!-- Left Column: Copy & CTAs -->
+          <div class="lg:col-span-6 flex flex-col items-start text-left">
+            
+            <!-- Local Trust Badge -->
+            <div class="inline-flex items-center gap-2 bg-white/90 border border-brand-pink/30 text-brand-charcoal/90 text-xs font-semibold px-3 py-1.5 rounded-full shadow-xs mb-5">
+              <span class="w-2 h-2 rounded-full bg-brand-pink-dark"></span>
+              <span>Toy Store in Vidyadhar Nagar, Jaipur</span>
+            </div>
+
+            <!-- Main Heading -->
+            <h1 class="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-brand-charcoal tracking-tight leading-[1.15] mb-4">
+              Little Toys. <br>
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-pink-dark via-[#B85D88] to-brand-blue-dark">
+                Big Smiles.
+              </span>
+            </h1>
+
+            <!-- Supporting Subtext -->
+            <p class="text-base sm:text-lg text-brand-muted max-w-lg leading-relaxed mb-7">
+              Discover adorable toys, playful surprises and happy little finds at Bubble Ddubble — your friendly neighbourhood toy shop.
+            </p>
+
+            <!-- Dual Action CTAs -->
+            <div class="flex flex-wrap items-center gap-3.5 w-full sm:w-auto">
+              <a href="#products" 
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-charcoal hover:bg-brand-charcoal/90 active:scale-[0.98] text-white text-sm font-semibold px-6 py-3.5 rounded-full shadow-xs transition-all duration-200">
+                <span>Explore Toys</span>
+                <i class="fa-solid fa-arrow-down text-xs text-brand-pink"></i>
+              </a>
+
+              <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20toys."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-pink-light/40 border border-brand-border active:scale-[0.98] text-brand-charcoal text-sm font-semibold px-5 py-3.5 rounded-full shadow-xs transition-all duration-200">
+                <i class="fa-brands fa-whatsapp text-brand-whatsapp text-lg"></i>
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
+
+            <!-- Quick Store Highlight Highlights -->
+            <div class="mt-8 pt-6 border-t border-brand-border/70 flex items-center gap-6 text-xs text-brand-muted">
+              <div class="flex items-center gap-1.5">
+                <i class="fa-solid fa-store text-brand-pink-dark"></i>
+                <span>Walk-in Store</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i class="fa-solid fa-gift text-brand-blue-dark"></i>
+                <span>Gift-Ready Finds</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i class="fa-brands fa-whatsapp text-brand-whatsapp"></i>
+                <span>Quick WhatsApp Inquiries</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Visual Composition with Realistic Toy Photography -->
+          <div class="lg:col-span-6 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              
+              <!-- Background card styling -->
+              <div class="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-brand-pink/20 to-brand-blue/20 blur-xl opacity-70"></div>
+              
+              <div class="relative bg-white p-3 sm:p-4 rounded-3xl border border-brand-border shadow-card">
+                <!-- Main Featured Photo -->
+                <div class="relative overflow-hidden rounded-2xl aspect-[4/3] bg-brand-pink-light/40">
+                  <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=80" 
+                       alt="Adorable soft toys and shop wooden toys display" 
+                       class="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-500"
+                       loading="eager">
+                  
+                  <!-- Soft Tag Overlay -->
+                  <div class="absolute bottom-3 left-3 bg-white/95 backdrop-blur-sm border border-brand-border/60 rounded-xl px-3 py-1.5 shadow-xs flex items-center gap-2">
+                    <span class="text-sm">🧸</span>
+                    <span class="text-xs font-semibold text-brand-charcoal">Cute Soft Toys & Blocks</span>
+                  </div>
+                </div>
+
+                <!-- Secondary Floating Pill Note -->
+                <div class="mt-3 flex items-center justify-between px-2 py-1 text-xs text-brand-muted">
+                  <span class="flex items-center gap-1.5">
+                    <i class="fa-solid fa-location-dot text-brand-pink-dark"></i>
+                    Bhati Complex, Vidyadhar Nagar
+                  </span>
+                  <span class="font-medium text-brand-charcoal">
+                    Insta: <span class="text-brand-pink-dark">@bubble_ddubble</span>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="py-8 sm:py-12 border-y border-brand-border/60 bg-white/60">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-6 gap-2">
+          <div>
+            <span class="text-xs font-semibold text-brand-pink-dark uppercase tracking-wider">Browse by Joy</span>
+            <h2 class="font-display font-bold text-2xl sm:text-3xl text-brand-charcoal tracking-tight">
+              Find Their New Favourite
+            </h2>
+          </div>
+          <p class="text-xs sm:text-sm text-brand-muted">
+            Tap a collection to filter featured toys below
+          </p>
+        </div>
+
+        <!-- Category Buttons / Horizontal Scrollable on Mobile -->
+        <div class="flex items-center gap-2.5 sm:gap-3 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar" id="category-pills" role="tablist">
+          
+          <button class="category-pill active flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-semibold border transition-all duration-200 bg-brand-charcoal text-white border-brand-charcoal shadow-xs"
+                  data-category="all" role="tab" aria-selected="true">
+            <span>✨</span>
+            <span>All Toys</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="soft-toys" role="tab" aria-selected="false">
+            <span>🧸</span>
+            <span>Soft Toys</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="learning" role="tab" aria-selected="false">
+            <span>🧩</span>
+            <span>Learning Toys</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="vehicles" role="tab" aria-selected="false">
+            <span>🚗</span>
+            <span>Cars & Vehicles</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="dolls" role="tab" aria-selected="false">
+            <span>🎀</span>
+            <span>Dolls</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="games" role="tab" aria-selected="false">
+            <span>🎲</span>
+            <span>Games & Sets</span>
+          </button>
+
+          <button class="category-pill flex-shrink-0 inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-medium border border-brand-border bg-white text-brand-charcoal hover:bg-brand-pink-light/40 hover:border-brand-pink/50 transition-all duration-200"
+                  data-category="gifts" role="tab" aria-selected="false">
+            <span>🎁</span>
+            <span>Kids’ Gifts</span>
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="products" class="py-12 sm:py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <!-- Section Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4">
+          <div>
+            <div class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-pink-dark uppercase tracking-wider mb-1">
+              <i class="fa-solid fa-sparkles text-xs"></i>
+              <span>Curated Demo Collection</span>
+            </div>
+            <h2 class="font-display font-bold text-2xl sm:text-3xl md:text-4xl text-brand-charcoal tracking-tight">
+              Cute Picks for Little Smiles
+            </h2>
+            <p class="text-sm text-brand-muted mt-1 max-w-xl">
+              Tap <strong>Buy Now</strong> on any item to ask availability & order directly with us on WhatsApp.
+            </p>
+          </div>
+
+          <!-- Micro helper notice -->
+          <div class="text-xs text-brand-muted bg-brand-pink-light/60 border border-brand-pink/20 rounded-xl px-3.5 py-2 inline-flex items-center gap-2 self-start md:self-auto">
+            <i class="fa-brands fa-whatsapp text-brand-whatsapp text-sm"></i>
+            <span>Instant chat with store: <strong>78913751125</strong></span>
+          </div>
+        </div>
+
+        <!-- Dynamic Product Container (Populated via JS with 8 realistic products) -->
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+          <!-- Rendered via JavaScript for clean maintainability & dynamic WhatsApp URLs -->
+        </div>
+
+        <!-- Empty state fallback if category has zero items -->
+        <div id="no-products-msg" class="hidden text-center py-12">
+          <p class="text-brand-muted text-sm">No toys found in this category. Showing all toys.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-6 sm:py-8 bg-gradient-to-r from-brand-pink-light/80 via-white to-brand-blue-light/80 border-y border-brand-border">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left py-2">
+          
+          <div class="flex items-center gap-3.5">
+            <div class="w-12 h-12 rounded-2xl bg-white border border-brand-pink/40 flex items-center justify-center text-xl shadow-xs shrink-0">
+              🎁
+            </div>
+            <div>
+              <h3 class="font-display font-semibold text-lg sm:text-xl text-brand-charcoal">
+                Something Cute for Every Little Celebration
+              </h3>
+              <p class="text-xs sm:text-sm text-brand-muted">
+                Birthdays, return gifts or just-because surprises — find a happy little pick at Bubble Ddubble.
+              </p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99m%20looking%20for%20gift%20suggestions%20for%20a%20child.%20Could%20you%20help?"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 bg-brand-charcoal hover:bg-brand-charcoal/90 active:scale-[0.98] text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-full shadow-xs shrink-0 transition-all duration-200">
+            <i class="fa-brands fa-whatsapp text-brand-whatsapp text-sm"></i>
+            <span>Ask on WhatsApp</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-12 sm:py-18">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="bg-white rounded-3xl border border-brand-border p-6 sm:p-10 md:p-12 shadow-soft">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            
+            <!-- Left: Curated Store Aesthetic Visual -->
+            <div class="lg:col-span-5 relative order-2 lg:order-1">
+              <div class="relative rounded-2xl overflow-hidden aspect-square bg-brand-blue-light/50 border border-brand-border">
+                <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80" 
+                     alt="Toy store arrangement with friendly wooden and soft toys" 
+                     class="w-full h-full object-cover object-center"
+                     loading="lazy">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-charcoal/30 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm rounded-xl p-3 border border-brand-border/60">
+                  <p class="text-xs font-semibold text-brand-charcoal flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-brand-pink-dark"></span>
+                    Bubble Ddubble • Vidyadhar Nagar, Jaipur
+                  </p>
+                  <p class="text-[11px] text-brand-muted mt-0.5">Where little imaginations find joy.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Authentic shop Narrative -->
+            <div class="lg:col-span-7 order-1 lg:order-2">
+              <span class="text-xs font-semibold text-brand-pink-dark uppercase tracking-wider">About Our Store</span>
+              <h2 class="font-display font-bold text-2xl sm:text-3xl md:text-4xl text-brand-charcoal tracking-tight mt-1 mb-4">
+                A Little Store Full of Big Smiles
+              </h2>
+              
+              <div class="space-y-3.5 text-sm sm:text-base text-brand-muted leading-relaxed">
+                <p>
+                  Welcome to <strong>Bubble Ddubble</strong>, a warm and friendly toy store tucked inside Sector-3, Vidyadhar Nagar, Jaipur. We believe that childhood is made of simple wonders — the comfort of a cuddly teddy, the thrill of racing a mini car, or the quiet joy of assembling colorful building blocks.
+                </p>
+                <p>
+                  Our shop offers a handpicked collection of fun toys, cute gifts, creative puzzles, and playful finds for children of all ages. Whether you're visiting us near Sodhani Sweets on Mall Road or saying hello on WhatsApp, we make picking the right toy easy, warm, and delight-filled.
+                </p>
+              </div>
+
+              <!-- Quick Local Store Features -->
+              <div class="grid grid-cols-2 gap-4 mt-6 pt-6 border-t border-brand-border/80">
+                <div class="flex items-start gap-2.5">
+                  <div class="w-7 h-7 rounded-lg bg-brand-pink-light text-brand-pink-dark flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-heart text-xs"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-xs sm:text-sm font-bold text-brand-charcoal">Handpicked Joy</h4>
+                    <p class="text-[11px] sm:text-xs text-brand-muted">Curated for smiles & safety.</p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-2.5">
+                  <div class="w-7 h-7 rounded-lg bg-brand-blue-light text-brand-blue-dark flex items-center justify-center shrink-0 mt-0.5">
+                    <i class="fa-solid fa-comments text-xs"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-xs sm:text-sm font-bold text-brand-charcoal">Personal Help</h4>
+                    <p class="text-[11px] sm:text-xs text-brand-muted">Ask us questions anytime.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-10 sm:py-14 bg-white/50 border-t border-brand-border/60">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <span class="text-xs font-semibold text-brand-pink-dark uppercase tracking-wider">Why Parents Love Us</span>
+          <h2 class="font-display font-bold text-2xl sm:text-3xl text-brand-charcoal tracking-tight mt-1">
+            Why Shop at Bubble Ddubble
+          </h2>
+          <p class="text-xs sm:text-sm text-brand-muted mt-1.5">
+            A shop shopping experience focused on delight, comfort, and local warmth.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Benefit 1 -->
+          <div class="bg-white p-6 rounded-2xl border border-brand-border shadow-xs hover:border-brand-pink/50 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-brand-pink-light text-brand-pink-dark flex items-center justify-center text-lg mb-4">
+              <i class="fa-solid fa-cubes-stacked"></i>
+            </div>
+            <h3 class="font-display font-semibold text-base text-brand-charcoal mb-1.5">
+              Cute Toy Collection
+            </h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Fun picks for different age groups, from toddler discovery toys to active play sets.
+            </p>
+          </div>
+
+          <!-- Benefit 2 -->
+          <div class="bg-white p-6 rounded-2xl border border-brand-border shadow-xs hover:border-brand-pink/50 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-[#E8F8EE] text-[#1EBE5D] flex items-center justify-center text-lg mb-4">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <h3 class="font-display font-semibold text-base text-brand-charcoal mb-1.5">
+              Easy WhatsApp Ordering
+            </h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Browse any toy on our site and check instant stock directly with our store team.
+            </p>
+          </div>
+
+          <!-- Benefit 3 -->
+          <div class="bg-white p-6 rounded-2xl border border-brand-border shadow-xs hover:border-brand-pink/50 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-brand-blue-light text-brand-blue-dark flex items-center justify-center text-lg mb-4">
+              <i class="fa-solid fa-shop"></i>
+            </div>
+            <h3 class="font-display font-semibold text-base text-brand-charcoal mb-1.5">
+              Local Jaipur Store
+            </h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Visit our physical store in Bhati Complex, Vidyadhar Nagar to see and choose in person.
+            </p>
+          </div>
+
+          <!-- Benefit 4 -->
+          <div class="bg-white p-6 rounded-2xl border border-brand-border shadow-xs hover:border-brand-pink/50 transition-colors">
+            <div class="w-11 h-11 rounded-xl bg-brand-pink-light/70 text-brand-pink-dark flex items-center justify-center text-lg mb-4">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <h3 class="font-display font-semibold text-base text-brand-charcoal mb-1.5">
+              Perfect for Gifting
+            </h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Find memorable picks for birthdays, milestones, and celebration return gift boxes.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-12 sm:py-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-3">
+          <div>
+            <span class="text-xs font-semibold text-brand-pink-dark uppercase tracking-wider">Social Feed</span>
+            <h2 class="font-display font-bold text-2xl sm:text-3xl text-brand-charcoal tracking-tight">
+              Follow the Fun
+            </h2>
+            <p class="text-xs sm:text-sm text-brand-muted mt-1">
+              Peek into our daily store arrivals and happy toy moments on Instagram.
+            </p>
+          </div>
+
+          <a href="https://instagram.com/bubble_ddubble" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-brand-charcoal bg-white hover:bg-brand-pink-light/50 border border-brand-border px-4 py-2 rounded-full shadow-xs transition-colors self-start sm:self-auto">
+            <i class="fa-brands fa-instagram text-pink-600 text-base"></i>
+            <span>@bubble_ddubble</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-[11px] text-brand-muted"></i>
+          </a>
+        </div>
+
+        <!-- 4 Clean Instagram Preview Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3.5 sm:gap-5">
+          
+          <!-- Insta 1 -->
+          <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" 
+             class="group relative overflow-hidden rounded-2xl aspect-square bg-brand-pink-light/30 border border-brand-border shadow-xs block">
+            <img src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=600&q=80" 
+                 alt="Cute teddy bear toys at Bubble Ddubble" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-brand-charcoal/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+          </a>
+
+          <!-- Insta 2 -->
+          <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" 
+             class="group relative overflow-hidden rounded-2xl aspect-square bg-brand-blue-light/30 border border-brand-border shadow-xs block">
+            <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=80" 
+                 alt="Educational wooden shapes and building blocks" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-brand-charcoal/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+          </a>
+
+          <!-- Insta 3 -->
+          <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" 
+             class="group relative overflow-hidden rounded-2xl aspect-square bg-brand-pink-light/30 border border-brand-border shadow-xs block">
+            <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=600&q=80" 
+                 alt="Happy toy sets and play essentials" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-brand-charcoal/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+          </a>
+
+          <!-- Insta 4 -->
+          <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" 
+             class="group relative overflow-hidden rounded-2xl aspect-square bg-brand-blue-light/30 border border-brand-border shadow-xs block">
+            <img src="https://images.unsplash.com/photo-1581557991964-125469da3b8a?auto=format&fit=crop&w=600&q=80" 
+                 alt="Mini vehicle sets and racing cars for kids" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute inset-0 bg-brand-charcoal/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="mt-6 text-center">
+          <a href="https://instagram.com/bubble_ddubble" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-brand-charcoal hover:text-brand-pink-dark transition-colors">
+            <span>Follow on Instagram</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="visit" class="py-12 sm:py-16 bg-white border-t border-brand-border">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <div class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-pink-dark uppercase tracking-wider mb-1">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Local Presence in Jaipur</span>
+          </div>
+          <h2 class="font-display font-bold text-2xl sm:text-3xl md:text-4xl text-brand-charcoal tracking-tight">
+            Come Say Hello!
+          </h2>
+          <p class="text-xs sm:text-sm text-brand-muted mt-1.5">
+            We’d love to help you find the sweetest toy for your little one in person.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          
+          <!-- Address & Store Details Card -->
+          <div class="lg:col-span-6 flex flex-col justify-between p-6 sm:p-8 rounded-3xl bg-brand-cream border border-brand-border shadow-soft">
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <span class="w-3 h-3 rounded-full bg-brand-pink-dark"></span>
+                <h3 class="font-display font-bold text-xl text-brand-charcoal">
+                  Bubble Ddubble Toy Store
+                </h3>
+              </div>
+
+              <!-- Full Physical Address -->
+              <div class="flex items-start gap-3.5 mb-6 text-brand-charcoal/90">
+                <div class="w-9 h-9 rounded-xl bg-white border border-brand-border flex items-center justify-center text-brand-pink-dark shrink-0 mt-1 shadow-xs">
+                  <i class="fa-solid fa-map-pin text-sm"></i>
+                </div>
+                <div class="text-sm leading-relaxed">
+                  <strong class="block font-semibold text-brand-charcoal">Store Address:</strong>
+                  GF-3, Bhati Complex, Mall Rd,<br>
+                  Near Sodhani Sweets, Sector-3,<br>
+                  Naya Khera, Vidyadhar Nagar,<br>
+                  Jaipur, Rajasthan 302039, India
+                </div>
+              </div>
+
+              <!-- Contact & Social Details -->
+              <div class="space-y-3.5 pt-4 border-t border-brand-border/70 text-sm">
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-white border border-brand-border flex items-center justify-center text-brand-whatsapp shrink-0">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                  </div>
+                  <div>
+                    <span class="text-xs text-brand-muted block">Phone / WhatsApp:</span>
+                    <a href="https://wa.me/9178913751125" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-charcoal hover:text-brand-pink-dark transition-colors">
+                      +91 78913751125
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-white border border-brand-border flex items-center justify-center text-pink-600 shrink-0">
+                    <i class="fa-brands fa-instagram text-sm"></i>
+                  </div>
+                  <div>
+                    <span class="text-xs text-brand-muted block">Instagram Profile:</span>
+                    <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" class="font-semibold text-brand-charcoal hover:text-brand-pink-dark transition-colors">
+                      @bubble_ddubble
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <div class="w-8 h-8 rounded-lg bg-white border border-brand-border flex items-center justify-center text-brand-blue-dark shrink-0">
+                    <i class="fa-solid fa-compass text-sm"></i>
+                  </div>
+                  <div>
+                    <span class="text-xs text-brand-muted block">Landmark:</span>
+                    <span class="font-medium text-brand-charcoal">Near Sodhani Sweets, Mall Road</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Direction & WhatsApp Action Buttons -->
+            <div class="pt-6 mt-6 border-t border-brand-border/70 flex flex-wrap gap-3">
+              <!-- Get Directions link configured to open Google Maps query directly -->
+              <a href="https://www.google.com/maps/search/?api=1&query=GF-3+Bhati+Complex+Mall+Rd+near+Sodhani+Sweets+Sector-3+Naya+Khera+Vidyadhar+Nagar+Jaipur+Rajasthan+302039"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="flex-1 min-w-[140px] inline-flex items-center justify-center gap-2 bg-brand-charcoal hover:bg-brand-charcoal/90 active:scale-[0.98] text-white text-xs sm:text-sm font-semibold px-4 py-3 rounded-xl shadow-xs transition-all">
+                <i class="fa-solid fa-diamond-turn-right text-brand-pink"></i>
+                <span>Get Directions</span>
+              </a>
+
+              <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99m%20planning%20to%20visit%20your%20store%20in%20Vidyadhar%20Nagar."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="flex-1 min-w-[140px] inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-pink-light/50 border border-brand-border active:scale-[0.98] text-brand-charcoal text-xs sm:text-sm font-semibold px-4 py-3 rounded-xl shadow-xs transition-all">
+                <i class="fa-brands fa-whatsapp text-brand-whatsapp text-base"></i>
+                <span>WhatsApp Us</span>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Stylized Location & Landmark Map Representation -->
+          <div class="lg:col-span-6 relative flex flex-col justify-between p-6 sm:p-8 rounded-3xl bg-brand-blue-light/30 border border-brand-border shadow-soft overflow-hidden">
+            
+            <div class="relative z-10">
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-xs font-semibold uppercase tracking-wider text-brand-blue-dark">Neighbourhood Map Guide</span>
+                <span class="text-[11px] bg-white border border-brand-border px-2.5 py-1 rounded-full text-brand-muted">Jaipur 302039</span>
+              </div>
+              
+              <!-- Clean Stylized Map Representation Card -->
+              <div class="bg-white rounded-2xl border border-brand-border p-5 shadow-xs mb-4">
+                <div class="flex items-start gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-brand-pink-light text-brand-pink-dark flex items-center justify-center shrink-0">
+                    <i class="fa-solid fa-store text-lg"></i>
+                  </div>
+                  <div>
+                    <h4 class="font-display font-semibold text-brand-charcoal text-base">GF-3, Bhati Complex</h4>
+                    <p class="text-xs text-brand-muted mt-0.5">Located on Mall Road in Sector-3, Vidyadhar Nagar. Very close to the famous Sodhani Sweets landmark.</p>
+                  </div>
+                </div>
+
+                <!-- Navigation Steps -->
+                <div class="mt-4 pt-4 border-t border-brand-border/60 space-y-2 text-xs text-brand-charcoal">
+                  <div class="flex items-center gap-2">
+                    <span class="w-5 h-5 rounded-full bg-brand-pink-light text-brand-pink-dark flex items-center justify-center font-bold text-[10px]">1</span>
+                    <span>Reach Mall Road, Vidyadhar Nagar</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="w-5 h-5 rounded-full bg-brand-pink-light text-brand-pink-dark flex items-center justify-center font-bold text-[10px]">2</span>
+                    <span>Spot Sodhani Sweets (Key Landmark)</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="w-5 h-5 rounded-full bg-brand-pink-light text-brand-pink-dark flex items-center justify-center font-bold text-[10px]">3</span>
+                    <span>Enter Bhati Complex, Ground Floor GF-3</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Google Map Interactive Preview Link Banner -->
+            <div class="relative z-10 bg-white/90 backdrop-blur-sm p-4 rounded-2xl border border-brand-border flex items-center justify-between">
+              <div class="text-xs">
+                <span class="font-semibold text-brand-charcoal block">Open in Google Maps</span>
+                <span class="text-brand-muted">View route from your current location</span>
+              </div>
+              <a href="https://www.google.com/maps/search/?api=1&query=GF-3+Bhati+Complex+Mall+Rd+near+Sodhani+Sweets+Sector-3+Naya+Khera+Vidyadhar+Nagar+Jaipur+Rajasthan+302039"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1.5 text-xs font-bold bg-brand-blue-dark hover:bg-brand-blue-dark/90 text-white px-3.5 py-2 rounded-xl transition-colors">
+                <span>View Route</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+
+            <!-- Soft decorative circles in map container -->
+            <div class="absolute -right-8 -bottom-8 w-48 h-48 bg-brand-pink/15 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="absolute -left-8 -top-8 w-48 h-48 bg-brand-blue/20 rounded-full blur-2xl pointer-events-none"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-brand-cream border-t border-brand-border py-12 text-sm text-brand-muted">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-10">
+        
+        <!-- Left: Brand summary -->
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-2.5 mb-3">
+            <div class="w-8 h-8 rounded-xl bg-white border border-brand-pink/40 flex items-center justify-center">
+              <svg class="w-5 h-5" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="13" cy="18" r="9" fill="#F8B4C4" fill-opacity="0.75" stroke="#E06287" stroke-width="2"/>
+                <circle cx="20" cy="12" r="7.5" fill="#8EC5FC" fill-opacity="0.75" stroke="#2B6CB0" stroke-width="1.75"/>
+              </svg>
+            </div>
+            <span class="font-display font-bold text-lg text-brand-charcoal">
+              Bubble Ddubble
+            </span>
+          </div>
+          <p class="text-xs sm:text-sm text-brand-muted max-w-sm mb-4">
+            Little toys, big smiles. A toy store in Vidyadhar Nagar, Jaipur, bringing cheerful playtime treasures to little hearts.
+          </p>
+          <div class="flex items-center gap-3 text-brand-charcoal">
+            <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-full bg-white border border-brand-border flex items-center justify-center hover:text-brand-pink-dark hover:border-brand-pink transition-colors" aria-label="Bubble Ddubble Instagram">
+              <i class="fa-brands fa-instagram text-sm"></i>
+            </a>
+            <a href="https://wa.me/9178913751125" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-full bg-white border border-brand-border flex items-center justify-center hover:text-brand-whatsapp hover:border-brand-whatsapp transition-colors" aria-label="Bubble Ddubble WhatsApp">
+              <i class="fa-brands fa-whatsapp text-sm"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Middle: Quick Navigation Links -->
+        <div class="md:col-span-3">
+          <h4 class="font-semibold text-xs text-brand-charcoal uppercase tracking-wider mb-3">
+            Quick Links
+          </h4>
+          <ul class="space-y-2 text-xs sm:text-sm">
+            <li><a href="#hero" class="hover:text-brand-pink-dark transition-colors">Home</a></li>
+            <li><a href="#categories" class="hover:text-brand-pink-dark transition-colors">Toy Categories</a></li>
+            <li><a href="#products" class="hover:text-brand-pink-dark transition-colors">Featured Toys</a></li>
+            <li><a href="#about" class="hover:text-brand-pink-dark transition-colors">About Our Store</a></li>
+            <li><a href="#visit" class="hover:text-brand-pink-dark transition-colors">Visit Us & Directions</a></li>
+          </ul>
+        </div>
+
+        <!-- Right: Store & Contact Info -->
+        <div class="md:col-span-4">
+          <h4 class="font-semibold text-xs text-brand-charcoal uppercase tracking-wider mb-3">
+            Store Contact
+          </h4>
+          <div class="space-y-2 text-xs sm:text-sm">
+            <p class="text-brand-charcoal font-medium">GF-3, Bhati Complex, Mall Rd, Vidyadhar Nagar, Jaipur</p>
+            <p>WhatsApp / Phone: <a href="https://wa.me/9178913751125" class="hover:text-brand-pink-dark transition-colors font-medium">78913751125</a></p>
+            <p>Instagram: <a href="https://instagram.com/bubble_ddubble" target="_blank" rel="noopener noreferrer" class="hover:text-brand-pink-dark transition-colors font-medium">@bubble_ddubble</a></p>
+            <p class="text-[11px] text-brand-muted/80 pt-1">Walk-in visits & WhatsApp inquiries are always welcome!</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Copyright -->
+      <div class="pt-8 border-t border-brand-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-brand-muted">
+        <p>© 2026 Bubble Ddubble. All rights reserved.</p>
+        <p class="flex items-center gap-1">
+          <span>Made with</span>
+          <i class="fa-solid fa-heart text-[10px] text-brand-pink-dark"></i>
+          <span>for kids & parents in Jaipur</span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <aside aria-label="Quick WhatsApp Contact">
+    <a href="https://wa.me/9178913751125?text=Hi%20Bubble%20Ddubble!%20I%E2%80%99d%20like%20to%20know%20more%20about%20your%20toys."
+       target="_blank"
+       rel="noopener noreferrer"
+       id="floating-whatsapp-btn"
+       class="fixed bottom-5 right-5 sm:bottom-6 sm:right-6 z-50 flex items-center gap-2.5 bg-brand-whatsapp hover:bg-brand-whatsapp-dark text-white py-3 px-4 rounded-full shadow-float hover:scale-105 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-brand-whatsapp/30"
+       aria-label="Chat with Bubble Ddubble on WhatsApp">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="hidden sm:inline-block text-xs font-bold tracking-wide">
+        Chat with us
+      </span>
+    </a>
+  </aside>
+
+  <script>
+    /**
+     * BUBBLE DDUBBLE - CLIENT APP LOGIC
+     * Handles:
+     * 1. Structured product dataset with demo items
+     * 2. Dynamic WhatsApp message generation with exact product titles
+     * 3. Category filtering and animations
+     * 4. Mobile navigation drawer toggle
+     * 5. Header scroll visual enhancements
+     */
+
+    // Official Bubble Ddubble WhatsApp contact number
+    const WHATSAPP_PHONE = "9178913751125"; // Proper international format for Jaipur / India
+
+    // Realistic Demo Products Dataset
+    const TOY_PRODUCTS = [
+      {
+        id: "toy-1",
+        name: "Teddy Bear",
+        category: "soft-toys",
+        categoryLabel: "Soft Toys",
+        price: 649,
+        description: "Ultra-soft plush bear with velvety fur and a sweet ribbon.",
+        image: "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=700&q=80",
+        badge: "Bestseller"
+      },
+      {
+        id: "toy-2",
+        name: "Wooden Learning Blocks",
+        category: "learning",
+        categoryLabel: "Learning Toys",
+        price: 799,
+        description: "Smooth pine blocks with numbers, letters and geometric forms.",
+        image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+        badge: "Educational"
+      },
+      {
+        id: "toy-3",
+        name: "Mini Racing Car Set",
+        category: "vehicles",
+        categoryLabel: "Cars & Vehicles",
+        price: 549,
+        description: "Set of 4 friction-powered die-cast cars for speedy races.",
+        image: "https://images.unsplash.com/photo-1581557991964-125469da3b8a?auto=format&fit=crop&w=700&q=80",
+        badge: "Popular"
+      },
+      {
+        id: "toy-4",
+        name: "Cute Doll Set",
+        category: "dolls",
+        categoryLabel: "Dolls",
+        price: 899,
+        description: "Charming miniature doll with switchable dresses and accessories.",
+        image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+        badge: "Adorable"
+      },
+      {
+        id: "toy-5",
+        name: "Building Blocks",
+        category: "learning",
+        categoryLabel: "Learning & Blocks",
+        price: 999,
+        description: "Colorful interlocking bricks that inspire endless castle building.",
+        image: "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?auto=format&fit=crop&w=700&q=80",
+        badge: "Creative"
+      },
+      {
+        id: "toy-6",
+        name: "Kids Doctor Play Set",
+        category: "games",
+        categoryLabel: "Games & Sets",
+        price: 749,
+        description: "Play stethoscope, medicine kit and case for roleplay fun.",
+        image: "https://images.unsplash.com/photo-1596464716127-f2a829822301?auto=format&fit=crop&w=700&q=80",
+        badge: "Roleplay"
+      },
+      {
+        id: "toy-7",
+        name: "Musical Toy",
+        category: "gifts",
+        categoryLabel: "Kids’ Gifts",
+        price: 699,
+        description: "Gentle xylophone with soothing wooden chimes and soft mallets.",
+        image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+        badge: "Musical"
+      },
+      {
+        id: "toy-8",
+        name: "Puzzle Set",
+        category: "learning",
+        categoryLabel: "Learning Toys",
+        price: 499,
+        description: "Chunky animal jigsaw puzzle designed for little toddler hands.",
+        image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=700&q=80",
+        badge: "Mind Game"
+      }
+    ];
+
+    // Helper: Construct dynamic WhatsApp URL with required message pattern
+    function createWhatsAppBuyUrl(productName) {
+      const message = `Hi Bubble Ddubble! I’m interested in the ${productName}. Is it available?`;
+      return `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+    }
+
+    // Helper: Render product cards into the grid
+    function renderProducts(items) {
+      const container = document.getElementById('product-grid');
+      const noMsg = document.getElementById('no-products-msg');
+      if (!container) return;
+
+      if (items.length === 0) {
+        container.innerHTML = '';
+        noMsg.classList.remove('hidden');
+        return;
+      }
+
+      noMsg.classList.add('hidden');
+      
+      container.innerHTML = items.map(product => {
+        const waLink = createWhatsAppBuyUrl(product.name);
+        
+        return `
+          <div class="group bg-white rounded-2xl border border-brand-border overflow-hidden shadow-xs hover:shadow-card hover:-translate-y-1 transition-all duration-300 flex flex-col">
+            
+            <!-- Product Image Container -->
+            <div class="relative aspect-square w-full bg-brand-pink-light/30 overflow-hidden">
+              <img src="${product.image}" 
+                   alt="${product.name}" 
+                   class="w-full h-full object-cover object-center group-hover:scale-104 transition-transform duration-500"
+                   loading="lazy"
+                   onerror="this.src='https://placehold.co/600x600/FFF0F3/E06287?text=${encodeURIComponent(product.name)}'">
+              
+              <!-- Subtle Badge -->
+              <div class="absolute top-3 left-3 bg-white/90 backdrop-blur-xs text-[11px] font-semibold text-brand-charcoal px-2.5 py-1 rounded-full border border-brand-border/60 shadow-xs">
+                ${product.badge}
+              </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="p-4 sm:p-5 flex flex-col flex-grow justify-between">
+              <div>
+                <span class="text-[11px] font-medium text-brand-muted uppercase tracking-wider block mb-1">
+                  ${product.categoryLabel}
+                </span>
+                <h3 class="font-display font-semibold text-base sm:text-lg text-brand-charcoal group-hover:text-brand-pink-dark transition-colors leading-snug mb-1">
+                  ${product.name}
+                </h3>
+                <p class="text-xs text-brand-muted line-clamp-2 leading-relaxed mb-3">
+                  ${product.description}
+                </p>
+              </div>
+
+              <!-- Price & Buy Now via WhatsApp CTA -->
+              <div class="pt-3 border-t border-brand-border/70 flex items-center justify-between gap-2">
+                <div>
+                  <span class="text-[10px] text-brand-muted block">Demo Price</span>
+                  <span class="font-display font-bold text-base sm:text-lg text-brand-charcoal">
+                    ₹${product.price}
+                  </span>
+                </div>
+
+                <a href="${waLink}" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="inline-flex items-center gap-1.5 bg-[#25D366] hover:bg-[#1EBE5D] text-white active:scale-95 text-xs font-bold px-3.5 py-2.5 rounded-xl shadow-xs transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-whatsapp"
+                   aria-label="Buy ${product.name} now on WhatsApp">
+                  <i class="fa-brands fa-whatsapp text-sm text-white"></i>
+                  <span>Buy Now</span>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Category Filter Event Handler
+    function setupCategoryFilters() {
+      const pills = document.querySelectorAll('.category-pill');
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          // Update active state
+          pills.forEach(p => {
+            p.classList.remove('active', 'bg-brand-charcoal', 'text-white', 'border-brand-charcoal');
+            p.classList.add('border-brand-border', 'bg-white', 'text-brand-charcoal');
+            p.setAttribute('aria-selected', 'false');
+          });
+
+          pill.classList.remove('border-brand-border', 'bg-white', 'text-brand-charcoal');
+          pill.classList.add('active', 'bg-brand-charcoal', 'text-white', 'border-brand-charcoal');
+          pill.setAttribute('aria-selected', 'true');
+
+          const cat = pill.getAttribute('data-category');
+          if (cat === 'all') {
+            renderProducts(TOY_PRODUCTS);
+          } else {
+            const filtered = TOY_PRODUCTS.filter(item => item.category === cat);
+            renderProducts(filtered.length > 0 ? filtered : TOY_PRODUCTS);
+          }
+        });
+      });
+    }
+
+    // Mobile Navigation Drawer Toggle
+    function setupMobileMenu() {
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+      const menuIcon = document.getElementById('menu-icon');
+      const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+      if (!menuBtn || !mobileNav) return;
+
+      const toggleMenu = () => {
+        const isHidden = mobileNav.classList.contains('hidden');
+        if (isHidden) {
+          mobileNav.classList.remove('hidden');
+          menuBtn.setAttribute('aria-expanded', 'true');
+          menuIcon.classList.replace('fa-bars', 'fa-xmark');
+        } else {
+          mobileNav.classList.add('hidden');
+          menuBtn.setAttribute('aria-expanded', 'false');
+          menuIcon.classList.replace('fa-xmark', 'fa-bars');
+        }
+      };
+
+      menuBtn.addEventListener('click', toggleMenu);
+
+      // Auto close menu when a mobile link is tapped
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (!mobileNav.classList.contains('hidden')) {
+            toggleMenu();
+          }
+        });
+      });
+    }
+
+    // Smooth subtle header shadow on scroll
+    function setupHeaderScrollEffect() {
+      const header = document.getElementById('main-header');
+      if (!header) return;
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 20) {
+          header.classList.add('shadow-xs', 'bg-brand-cream/95');
+          header.classList.remove('bg-brand-cream/90');
+        } else {
+          header.classList.remove('shadow-xs', 'bg-brand-cream/95');
+          header.classList.add('bg-brand-cream/90');
+        }
+      }, { passive: true });
+    }
+
+    // Initializer
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProducts(TOY_PRODUCTS);
+      setupCategoryFilters();
+      setupMobileMenu();
+      setupHeaderScrollEffect();
+    });
+  </script>
+</body>
+</html>
